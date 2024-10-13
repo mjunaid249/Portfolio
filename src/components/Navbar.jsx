@@ -1,27 +1,9 @@
 import React from "react";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import { Input } from "@/components/ui/input";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import {
-  Activity,
-  ArrowUpRight,
-  CircleUser,
-  CreditCard,
-  DollarSign,
-  Menu,
-  Package2,
-  Search,
-  Users,
-} from "lucide-react";
+
+import { Menu } from "lucide-react";
 import ModeToggle from "./toggle";
 const Navbar = () => {
   return (
