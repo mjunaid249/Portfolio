@@ -2,6 +2,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { BetweenHorizonalStart, Laptop, PanelTopInactive } from "lucide-react";
+import Link from "next/link";
 
 const Services = () => {
   const servies = [
@@ -48,7 +49,9 @@ const Services = () => {
               <div class="line-clamp-2 text-md text-muted-foreground">
                 {item.description}
               </div>
-              <Button size="sm">Contact Me</Button>
+              <Link href="#contact">
+                <Button size="sm">Contact Me</Button>
+              </Link>
             </div>
           );
         })}

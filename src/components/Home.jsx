@@ -1,5 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
+import { ArrowBigRight, ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 import Typed from "typed.js";
 
@@ -45,10 +47,14 @@ const page = () => {
 
         <p class="max-w-2xl text-lg font-light text-foreground"></p>
         <div class="flex w-full items-center justify-center gap-2 py-2">
-          <Button size="sm">Contact Me</Button>
-          <Button size="sm" variant="outline">
-            Github
-          </Button>
+          <Link href="#contact">
+            <Button size="sm">Contact Me</Button>
+          </Link>
+          <Link href="#contact">
+            <Button size="sm" variant="secondary">
+              Github <ArrowUpRight className="h-4 w-4" />
+            </Button>
+          </Link>
         </div>
       </section>
     </div>
