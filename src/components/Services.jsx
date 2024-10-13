@@ -46,7 +46,7 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div class="line-clamp-2 text-md text-muted-foreground">
+              <div class="text-md text-muted-foreground">
                 {item.description}
               </div>
               <Link href="#contact">
