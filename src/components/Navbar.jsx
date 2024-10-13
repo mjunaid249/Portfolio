@@ -7,7 +7,10 @@ import { Menu } from "lucide-react";
 import ModeToggle from "./toggle";
 const Navbar = () => {
   return (
-    <header className="z-20 sticky top-0 flex h-16 items-center gap-4 border-b  px-4 md:px-6 backdrop-blur-md">
+    <header
+      id="header"
+      className="z-20 sticky top-0 flex h-16 items-center gap-4 border-b  px-4 md:px-6 backdrop-blur-sm"
+    >
       <nav className="hidden items-center flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
         <Link
           href="/"
@@ -16,28 +19,28 @@ const Navbar = () => {
           Porfolio
         </Link>
         <Link
-          href="#"
+          href="#home"
           className="text-muted-foreground transition-colors hover:text-foreground"
         >
-          Orders
+          Home
         </Link>
         <Link
-          href="#"
+          href="#services"
           className="text-muted-foreground transition-colors hover:text-foreground"
         >
-          Products
+          Services
         </Link>
         <Link
-          href="#"
+          href="#tools"
           className="text-muted-foreground transition-colors hover:text-foreground"
         >
-          Customers
+          Tools
         </Link>
         <Link
-          href="#"
+          href="#contact"
           className="text-muted-foreground transition-colors hover:text-foreground"
         >
-          Analytics
+          Contact
         </Link>
       </nav>
       <Sheet>
@@ -49,32 +52,32 @@ const Navbar = () => {
         </SheetTrigger>
         <SheetContent side="left">
           <nav className="grid gap-6 text-lg font-medium">
-            <Link href="#" className="hover:text-foreground">
+            <Link href="/" className="hover:text-foreground">
               Porfolio
             </Link>
             <Link
-              href="#"
+              href="#home"
               className="text-muted-foreground hover:text-foreground"
             >
-              Orders
+              Home
             </Link>
             <Link
-              href="#"
+              href="#services"
               className="text-muted-foreground hover:text-foreground"
             >
-              Products
+              Services
             </Link>
             <Link
-              href="#"
+              href="#tools"
               className="text-muted-foreground hover:text-foreground"
             >
-              Customers
+              Tools
             </Link>
             <Link
-              href="#"
+              href="#contact"
               className="text-muted-foreground hover:text-foreground"
             >
-              Analytics
+              Contact
             </Link>
           </nav>
         </SheetContent>

@@ -1,13 +1,7 @@
 "use client";
 import React from "react";
 import { Button } from "./ui/button";
-import {
-  BetweenHorizonalStart,
-  Code,
-  Laptop,
-  PanelTopInactive,
-  Phone,
-} from "lucide-react";
+import { BetweenHorizonalStart, Laptop, PanelTopInactive } from "lucide-react";
 
 const Services = () => {
   const servies = [
@@ -32,7 +26,10 @@ const Services = () => {
   ];
 
   return (
-    <div className="container mt-10 mx-auto max-w-[90%]  flex flex-col items-center justify-center gap-3">
+    <div
+      id="services"
+      className="container mt-10 mx-auto max-w-[90%]  flex flex-col items-center justify-center gap-3"
+    >
       <h1 class="text-3xl text-center font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1] py-4">
         My Services
       </h1>

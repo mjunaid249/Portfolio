@@ -31,7 +31,7 @@ const page = () => {
     };
   }, []);
   return (
-    <div className="relative container mx-auto ">
+    <div id="home" className="relative container mx-auto ">
       <section class="mx-auto text-center flex flex-col items-center gap-2 px-4 py-8 md:py-12 md:pb-8 lg:py-12 lg:pb-10">
         <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold">
           Welcome to my Portfolio
