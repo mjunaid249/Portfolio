@@ -31,7 +31,7 @@ const Services = () => {
       id="services"
       className="container mt-10 mx-auto max-w-[90%]  flex flex-col items-center justify-center gap-3"
     >
-      <h1 class="text-3xl text-center font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1] py-4">
+      <h1 class="text-3xl text-primary text-center font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1] py-4">
         My Services
       </h1>
       <div className="div flex flex-col md:flex-row items-center justify-center gap-3 ">

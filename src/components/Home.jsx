@@ -38,11 +38,11 @@ const page = () => {
         <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold">
           Welcome to my Portfolio
         </code>
-        <h1 class="text-3xl text-center font-bold leading-tight tracking-tighter md:text-5xl lg:leading-[1.1] ">
-          I am Muhammad Junaid
+        <h1 class="text-3xl text-center font-bold  leading-tight tracking-tighter md:text-5xl lg:leading-[1.1] ">
+          I am <span className="text-primary">Muhammad Junaid</span>
         </h1>
         <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-          I know <span ref={el} className="font-bold" />
+          I know <span ref={el} className="font-bold text-primary" />
         </h2>
 
         <p class="max-w-2xl text-lg font-light text-foreground"></p>

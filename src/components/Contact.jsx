@@ -71,7 +71,7 @@ const Contact = () => {
       id="contact"
       className="container mx-auto mt-16 w-[80%] flex flex-col gap-6"
     >
-      <h1 class="text-3xl text-center font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1] py-4">
+      <h1 class="text-3xl text-primary text-center font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1] py-4">
         Contact Me
       </h1>
       <Card className="xl:col-span-2" x-chunk="dashboard-01-chunk-4">

@@ -71,7 +71,7 @@ const Skills = () => {
       id="tools"
       className="container mt-10 mx-auto max-w-[80%] flex flex-col items-center justify-center gap-6"
     >
-      <h1 class="text-3xl text-center font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1] py-4">
+      <h1 class="text-3xl text-primary text-center font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1] py-4">
         Tools & Technologies
       </h1>
       <div className="div flex items-center  max-w-full flex-wrap justify-start gap-7 ">

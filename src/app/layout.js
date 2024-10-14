@@ -37,7 +37,12 @@ export default function RootLayout({ children }) {
         >
           <Navbar />
 
-          <NextTopLoader height={5} showSpinner={false} speed={400} />
+          <NextTopLoader
+            height={5}
+            showSpinner={false}
+            speed={500}
+            color="indigo"
+          />
           {children}
           <Analytics />
         </ThemeProvider>
