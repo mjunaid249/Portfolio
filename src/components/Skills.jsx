@@ -77,7 +77,7 @@ const Skills = () => {
       <div className="div flex items-center  max-w-full flex-wrap justify-start gap-7 ">
         {servies.map((item, index) => {
           return (
-            <div class="flex flex-col items-start gap-4 rounded-lg border p-3 text-left text-5xl transition-all hover:bg-accent">
+            <div class="flex flex-col items-center sm:items-start gap-4 rounded-lg border p-3 text-left text-5xl transition-all hover:bg-accent">
               {item.icon}
             </div>
           );
