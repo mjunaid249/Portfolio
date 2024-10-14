@@ -37,7 +37,7 @@ const Services = () => {
       <div className="div flex flex-col md:flex-row items-center justify-center gap-3 ">
         {servies.map((item, index) => {
           return (
-            <div class="flex flex-col items-start gap-4 rounded-lg border p-3 text-left text-sm transition-all hover:bg-accent">
+            <div class="flex justify-between md:h-[23rem] lg:h-[20rem] flex-col items-start gap-4 rounded-lg border p-3 text-left text-sm transition-all hover:bg-accent">
               {item.icon}
               <div class="flex w-full gap-1">
                 <div class="flex items-center">

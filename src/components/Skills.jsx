@@ -74,10 +74,13 @@ const Skills = () => {
       <h1 class="text-3xl text-primary text-center font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1] py-4">
         Tools & Technologies
       </h1>
-      <div className="div flex items-center  max-w-full flex-wrap justify-start gap-7 ">
+      <div className="div flex items-center  max-w-full flex-wrap justify-center gap-7 ">
         {servies.map((item, index) => {
           return (
-            <div class="flex flex-col items-center sm:items-start gap-4 rounded-lg border p-3 text-left text-5xl transition-all hover:bg-accent">
+            <div
+              key={index}
+              class="flex flex-col items-center justify-center gap-4 rounded-lg border p-3 text-5xl transition-all hover:bg-accent"
+            >
               {item.icon}
             </div>
           );
