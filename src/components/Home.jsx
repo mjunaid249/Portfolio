@@ -15,6 +15,9 @@ const page = () => {
         "HTML",
         "CSS",
         "JavaScript",
+        "C#",
+        "ASPs.Net Core",
+        "SQL",
         "React Js",
         "Express Js",
         "MongoDB",
@@ -23,12 +26,11 @@ const page = () => {
         "Linux OS",
       ],
       typeSpeed: 30,
-      backSpeed: 10,
+      backSpeed: 5,
       loop: true,
     });
 
     return () => {
-      // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
   }, []);
@@ -41,8 +43,8 @@ const page = () => {
         <h1 class="text-3xl text-center font-bold  leading-tight tracking-tighter md:text-5xl lg:leading-[1.1] ">
           I am <span className="text-primary">Muhammad Junaid</span>
         </h1>
-        <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-          I know <span ref={el} className="font-bold text-primary" />
+        <h2 className="scroll-m-20 pb-2 text-secondary-foreground text-3xl font-semibold tracking-tight first:mt-0">
+          I'm skilled in <span ref={el} className="font-bold text-primary" />
         </h2>
 
         <p class="max-w-2xl text-lg font-light text-foreground"></p>
