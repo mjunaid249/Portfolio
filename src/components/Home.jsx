@@ -25,8 +25,8 @@ const page = () => {
         "Tailwind css",
         "Linux OS",
       ],
-      typeSpeed: 30,
-      backSpeed: 5,
+      typeSpeed: 15,
+      backSpeed: 1,
       loop: true,
     });
 
@@ -44,7 +44,7 @@ const page = () => {
           I am <span className="text-primary">Muhammad Junaid</span>
         </h1>
         <h2 className="scroll-m-20 pb-2 text-secondary-foreground text-3xl font-semibold tracking-tight first:mt-0">
-          I'm skilled in <span ref={el} className="font-bold text-primary" />
+          I'm Skilled in <span ref={el} className="font-bold text-primary" />
         </h2>
 
         <p class="max-w-2xl text-lg font-light text-foreground"></p>
