@@ -52,7 +52,7 @@ const page = () => {
           <Link href="#contact">
             <Button size="sm">Contact Me</Button>
           </Link>
-          <Link href="https://github.com/mjunaid249" target="_blank">
+          <Link href="https://github.com/webdevjunaid" target="_blank">
             <Button size="sm" variant="secondary">
               Github <ArrowUpRight className="h-4 w-4" />
             </Button>

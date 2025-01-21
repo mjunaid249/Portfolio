@@ -7,7 +7,7 @@ function Footer() {
         <p class="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
           Built by {""}
           <a
-            href="https://github.com/mjunaid249"
+            href="https://github.com/webdevjunaid"
             target="_blank"
             rel="noreferrer"
             class="font-medium underline underline-offset-4"
@@ -17,7 +17,7 @@ function Footer() {
           {""} The source code is available on {""}
           {/* .  */}
           <a
-            href="https://github.com/mjunaid249/Portfolio"
+            href="https://github.com/webdevjunaid/Portfolio"
             target="_blank"
             rel="noreferrer"
             class="font-medium underline underline-offset-4"
