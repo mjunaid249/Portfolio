@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
             height={5}
             showSpinner={false}
             speed={500}
-            color="indigo"
+            color="green"
           />
           {children}
           <Analytics />
