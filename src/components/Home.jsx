@@ -16,7 +16,7 @@ const page = () => {
         "CSS",
         "JavaScript",
         "C#",
-        "ASPs.Net Core",
+        "ASP.Net Core",
         "SQL",
         "React Js",
         "Express Js",
