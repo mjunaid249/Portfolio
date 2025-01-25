@@ -25,8 +25,8 @@ const Contact = () => {
     },
     {
       title: "Github",
-      contact: "mjunaid249",
-      link: "https://github.com/mjunaid249",
+      contact: "webdevjunaid",
+      link: "https://github.com/webdevjunaid",
     },
     {
       title: "Phone",
